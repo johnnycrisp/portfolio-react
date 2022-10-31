@@ -38,5 +38,32 @@
 .experience__details-icon {
     color: var(--color-primary);
     margin-top: 6px;
+
+}
+
+/* media queries  */
+
+@media screen and (max-width: 1024px) {
+    .experience__container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
+    .experience__content {
+        padding: 1rem;
+    }
     
 }
+
+@media screen and (max-width: 600px) {
+    
+  .experience__container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+
+}
+
